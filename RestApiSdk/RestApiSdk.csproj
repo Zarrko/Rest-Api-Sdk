@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="2Movies.Contracts">
+        <HintPath>..\..\..\RestApi\BeyondTheBasics\2Movies.Contracts\bin\Debug\net7.0\2Movies.Contracts.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Refit" Version="7.0.0" />
+    </ItemGroup>
+
+</Project>

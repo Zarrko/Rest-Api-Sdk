@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RestApiSdk\RestApiSdk.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="2Movies.Contracts">
+        <HintPath>..\..\..\RestApi\BeyondTheBasics\2Movies.Contracts\bin\Debug\net7.0\2Movies.Contracts.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+      <PackageReference Include="Refit.HttpClientFactory" Version="7.0.0" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+    </ItemGroup>
+
+</Project>

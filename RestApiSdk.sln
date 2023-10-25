@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiSdk", "RestApiSdk\RestApiSdk.csproj", "{0635FCF1-A52A-4749-B818-3C19547A2CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiSdkConsumer", "RestApiSdkConsumer\RestApiSdkConsumer.csproj", "{3625ECDC-8D8E-41F5-AB9B-E55E151D877F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0635FCF1-A52A-4749-B818-3C19547A2CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0635FCF1-A52A-4749-B818-3C19547A2CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0635FCF1-A52A-4749-B818-3C19547A2CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0635FCF1-A52A-4749-B818-3C19547A2CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3625ECDC-8D8E-41F5-AB9B-E55E151D877F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3625ECDC-8D8E-41F5-AB9B-E55E151D877F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3625ECDC-8D8E-41F5-AB9B-E55E151D877F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3625ECDC-8D8E-41F5-AB9B-E55E151D877F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
